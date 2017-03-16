@@ -16,9 +16,8 @@ const port = config.get('server.port')
 var frameworkArray = config.get('frameworks')
 var frameworkModules = {}
 for(var i = 0; length = frameworkArray.length, i < length; i++) {
-    element = frameworkArray[i]
-    var name = element['name']
-    var module = element['module']
+    var name = frameworkArray[i]
+    var module = config.get(name + '.module') 
     frameworkModules[name] = require('./api/' + name + '/' + module)
     logger.info("Imported Module: " + frameworkModules[name].moduleName)
 }

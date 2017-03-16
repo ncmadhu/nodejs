@@ -6,11 +6,16 @@
         "level": "info",
         "logFile": "./log/server.log"
     },
-    "frameworks": [{
-        "name": "framework1",
-        "module": "framework1"
-    }, {
-        "name": "framework2",
-        "module": "framework2"
-    }]
+    "frameworks": [
+        "framework1",
+        "framework2"
+    ],
+    "framework1": {
+        "module": "framework1",
+        "reports": "framework1"
+    },
+    "framework2": {
+        "module": "framework2",
+        "reports": "framework2"
+    }
 }

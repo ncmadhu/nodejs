@@ -1,0 +1,13 @@
+######################### Framework1 #############################
+Testsuite: Testsuite1
+Passed: 5
+Failed: 10
+Build Number: 1.2.1
+Testsuite: Testsuite2
+Passed: 4
+Failed: 45
+Build Number: 1.2.1
+Testsuite: Testsuite3
+Passed: 5
+Failed: 55
+Build Number: 1.2.1
