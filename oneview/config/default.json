@@ -1,0 +1,16 @@
+{
+    "server": {
+        "port": 4000
+    },
+    "logger": {
+        "level": "info",
+        "logFile": "./log/server.log"
+    },
+    "frameworks": [{
+        "name": "framework1",
+        "module": "framework1"
+    }, {
+        "name": "framework2",
+        "module": "framework2"
+    }]
+}
