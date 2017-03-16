@@ -9,9 +9,21 @@ const config = require('config')
 const logger = require('./api/log').logger
 
 const app = express()
-const port = config.get('server.port') 
+const port = config.get('server.port')
 
-//Initialize logger
+// Import all framework modules
+
+var frameworkArray = config.get('frameworks')
+var frameworkModules = {}
+for(var i = 0; length = frameworkArray.length, i < length; i++) {
+    element = frameworkArray[i]
+    var name = element['name']
+    var module = element['module']
+    frameworkModules[name] = require('./api/' + name + '/' + module)
+    logger.info("Imported Module: " + frameworkModules[name].moduleName)
+}
+
+//Initialize request logger
 
 var requestLogger = function (req, res, next) {
     logger.info('request url received - ', req.url)
