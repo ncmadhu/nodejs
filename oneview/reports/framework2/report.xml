@@ -1,0 +1,20 @@
+<report>
+    <testsuite>
+        <name>testsuite1</name>
+        <passed>5</passed>
+        <failed>10</failed>
+        <buildNumber>1.2.1</buildNumber>
+    </testsuite>
+    <testsuite>
+        <name>testsuite2</name>
+        <passed>51</passed>
+        <failed>11</failed>
+        <buildNumber>1.2.1</buildNumber>
+    </testsuite>
+    <testsuite>
+        <name>testsuite3</name>
+        <passed>65</passed>
+        <failed>20</failed>
+        <buildNumber>1.2.1</buildNumber>
+    </testsuite>
+</report>

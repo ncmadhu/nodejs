@@ -18,10 +18,10 @@ var frameworkModules = {}
 for(var i = 0; length = frameworkArray.length, i < length; i++) {
     var name = frameworkArray[i]
     var module = config.get(name + '.module') 
-    var path = './api/' + name + '/' + module + '.js'
-    frameworkModules[name] = require(path)
-    app.use('/' + name, frameworkModules[name])
-    logger.debug("Imported Module: " + frameworkModules[name].moduleName)
+    frameworkModules[name] = require('./api/' + name + '/' + module)
+    //app.use('/framework1', frameworkModules[name])
+    app.use(fw1)
+    //logger.info("Imported Module: " + frameworkModules[name].moduleName)
 }
 
 //Initialize request logger
