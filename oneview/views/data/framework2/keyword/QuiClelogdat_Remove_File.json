@@ -1,0 +1,13 @@
+{
+  "name": "Remove File",
+  "executedBy": "Clear login database",
+  "library": "OperatingSystem",
+  "description": "Removes a file with the given path.",
+  "arguments": [
+    "${DATABASE FILE}"
+  ],
+  "msg": "File '<a href=\"file:///tmp/robotframework-quickstart-db.txt\">/tmp/robotframework-quickstart-db.txt</a>' does not exist.",
+  "status": "PASS",
+  "starttime": "20160127 12:52:24.812",
+  "endtime": "20160127 12:52:24.812"
+}

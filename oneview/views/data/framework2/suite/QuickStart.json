@@ -1,0 +1,14 @@
+{
+  "type": "suite",
+  "name": "QuickStart",
+  "status": "PASS",
+  "keywords": [
+    "Clear login database"
+  ],
+  "suite setup": {
+    "name": "Clear login database",
+    "status": "PASS",
+    "starttime": "20160127 12:52:24.811",
+    "endtime": "20160127 12:52:24.813"
+  }
+}

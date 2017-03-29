@@ -21,17 +21,50 @@ var parseString = parser.parseString;
 
 //Initialize path variables
 
-var suitePath = path.join(process.cwd(), 'views','data', moduleName)
-
-fse.ensureDir(suitePath, function(err) {
-    if (err) {
-        logger.error(err)
-    } else {
-        logger.info(suitePath + " is created")
-    }
-})
+var suitePath = path.join(process.cwd(), 'views','data', moduleName, 'suite')
+var testPath = path.join(process.cwd(), 'views','data', moduleName, 'test')
+var keywordsPath = path.join(process.cwd(), 'views','data', moduleName, 'keyword')
 
 // Functions
+
+function createDataDir(dirList) {
+
+    for (var i = 0; i < dirList.length; i++) {
+        var path = dirList[i]
+        fse.ensureDir(path, function(err) {
+            if (err) {
+                logger.error(err)
+            }
+        })
+    }
+}
+
+// create data directories if not present
+createDataDir([suitePath, testPath, keywordsPath])
+
+
+function writeToJsonFile(fileName, fileContent) {
+
+    logger.debug("Writing to Json file: " + fileName)
+    jsonfile.writeFile(fileName, fileContent, {spaces: 2}, function(err) {
+        if (err) {
+            logger.error(err)
+        }
+    })
+
+}
+
+function nameCreator(nameList) {
+
+    var name = ''
+    for (var i = 0; i < nameList.length; i++) {
+        names = nameList[i].split(' ')
+        for (var j = 0; j < names.length; j++) {
+            name = name + names[j].substr(0,3)
+        }
+    }
+    return name
+}
 
 var reportParser = function(req, res) {
 
@@ -39,7 +72,7 @@ var reportParser = function(req, res) {
     logger.debug("filePath:" + filePath)
     fse.readFile(filePath, 'utf8', function(err, contents) {
         parseString(contents, function(err, result) {
-            suiteJsonFileBuilder(result.robot.suite[0])
+            writeSuiteJsonFile(result.robot.suite[0])
             response = JSON.stringify(result)
             //console.log(JSON.stringify(result))
             res.end(response)
@@ -48,18 +81,69 @@ var reportParser = function(req, res) {
 
 }
 
-function suiteJsonFileBuilder(suite) {
+function writeSuiteJsonFile(suite) {
     
     logger.info("Building test suite json") 
     var suiteName = suite.attributes.name
-    var data = {"name": suiteName, "status": suite.status[0].attributes.status}
+    var data = {"type": "suite", "name": suiteName, "status": suite.status[0].attributes.status}
     var suiteFile = path.join(suitePath, suiteName + '.json')
-    logger.debug("SuiteFile: " + suiteFile)
-    jsonfile.writeFile(suiteFile, data, {spaces: 2}, function(err) {
-        if (err) {
-            logger.error(err)
+    if ('kw' in suite) {
+        buildSuiteKeywordsJson(suite.kw, data)
+    }
+    writeToJsonFile(suiteFile, data)
+    
+}
+
+function buildSuiteKeywordsJson(keywords, data) {
+   
+    logger.info("Building suite Json")
+    data.keywords = []
+    for (var kw = 0; kw < keywords.length; kw++) {
+        var attributes = keywords[kw].attributes
+        var status = keywords[kw].status[0]
+        if ('type' in attributes) {
+            if (attributes.type == 'setup') {
+               data['suite setup'] = {'name': attributes.name,
+                                      'status': status.attributes.status,
+                                      'starttime': status.attributes.starttime,
+                                      'endtime': status.attributes.endtime
+                                     } 
+            } else if (attributes.type == 'teardown') {
+               data['suite teardown'] = {'name': attributes.name,
+                                         'status': status.attributes.status,
+                                         'starttime': status.attributes.starttime,
+                                         'endtime': status.attributes.endtime
+                                        } 
+            }
+            data.keywords[kw] = attributes.name
+            if ('kw' in keywords[kw]) {
+                for (var childKw = 0; childKw < keywords[kw]['kw'].length; childKw++) {
+                    var parentNames = nameCreator([data.name, attributes.name])
+                    buildKeywordsJson(keywords[kw]['kw'][childKw], attributes.name, parentNames)
+                }
+            } 
         }
-    })
+    }
+    
+}
+
+function buildKeywordsJson(keyword, parent, filePrefix) {
+
+    logger.info("Building Keyword")
+    
+    var keywordObj = {}
+    keywordObj.name = keyword.attributes.name
+    keywordObj.executedBy = parent
+    keywordObj.library = keyword.attributes.library
+    keywordObj.description = keyword.doc[0]
+    keywordObj.arguments = keyword.arguments[0].arg
+    keywordObj.msg = keyword.msg[0].value
+    keywordObj.status = keyword.status[0].attributes.status
+    keywordObj.starttime = keyword.status[0].attributes.starttime
+    keywordObj.endtime = keyword.status[0].attributes.endtime 
+    var keywordFile = path.join(keywordsPath, filePrefix + '_' + keywordObj.name.replace(' ', '_')  + '.json')
+    writeToJsonFile(keywordFile, keywordObj)
+     
     
 }
 
