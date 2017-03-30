@@ -82,7 +82,7 @@ var reportParser = function(req, res) {
             responseData.statistics = result.robot.statistics[0].total[0].stat
             responseData.suitestats = result.robot.statistics[0].suite[0].stat
             responseData.tags = result.robot.statistics[0].tag[0].stat
-            responseData.errors = result.robot.statistics[0].errors
+            responseData.errors = result.robot.errors
             var response = JSON.stringify(responseData)
             res.end(response)
         })
