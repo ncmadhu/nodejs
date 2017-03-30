@@ -72,9 +72,15 @@ var reportParser = function(req, res) {
     logger.debug("filePath:" + filePath)
     fse.readFile(filePath, 'utf8', function(err, contents) {
         parseString(contents, function(err, result) {
-            writeSuiteJsonFile(result.robot.suite[0])
+            var suiteList = []
+            var suites = result.robot.suite
+            for (i = 0; i < suites.length; i++) {
+                suiteList[i] = writeSuiteJsonFile(result.robot.suite[i])
+            }
+            responseData = {}
+            responseData.suites = suiteList
+            
             response = JSON.stringify(result)
-            //console.log(JSON.stringify(result))
             res.end(response)
         })
     })
@@ -83,68 +89,112 @@ var reportParser = function(req, res) {
 
 function writeSuiteJsonFile(suite) {
     
-    logger.info("Building test suite json") 
+    logger.info("Building suite json") 
     var suiteName = suite.attributes.name
-    var data = {"type": "suite", "name": suiteName, "status": suite.status[0].attributes.status}
-    var suiteFile = path.join(suitePath, suiteName + '.json')
+    var suiteData = {"type": "suite",
+                     "name": suiteName,
+                     "status": suite.status[0].attributes.status
+                    }
+
+    suiteData.keywords = []
     if ('kw' in suite) {
-        buildSuiteKeywordsJson(suite.kw, data)
+        var keywords = suite.kw
+        var rootName = nameCreator([suiteName])
+        for (var k=0; k < keywords.length; k++) {
+            suiteData.keywords[k] =  writeKeywordJsonFile(keywords[k], suiteName, rootName)
+        }
     }
-    writeToJsonFile(suiteFile, data)
+
+    suiteData.tests = []
+    if ('test' in suite) {
+        var tests = suite.test
+        for (var t=0; t < tests.length; t++) {
+            suiteData.tests[t] = writeTestJsonFile(tests[t], suiteName)
+        } 
+    }
+
+    var suiteFile = path.join(suitePath, suiteName.replace(/ /g, '_') + '.json')
+    writeToJsonFile(suiteFile.toLowerCase(), suiteData)
+    return suiteName
+}
+
+
+function writeTestJsonFile(test, suiteName) {
+    
+    logger.info("Building test json") 
+    var testName = test.attributes.name
+    var testData = {"type": "testcase",
+                "name": testName,
+                "executedBy": suiteName,
+                "status": test.status[0].attributes.status,
+                "starttime": test.status[0].attributes.starttime,
+                "endtime": test.status[0].attributes.endtime,
+                "critical": test.status[0].attributes.critical,
+                "tags": test.tags[0].tag
+               }
+
+    testData.keywords = []
+    if ('kw' in test) {
+        var keywords = test.kw
+        var rootName = nameCreator([suiteName, testName])
+        for (var k=0; k < keywords.length; k++) {
+            testData.keywords[k] =  writeKeywordJsonFile(keywords[k], testName, rootName)
+        }
+    }
+
+    var parentName = nameCreator([suiteName])
+    var testFile = path.join(testPath, parentName + '_' + testName.replace(/ /g, '_') + '.json')
+    writeToJsonFile(testFile.toLowerCase(), testData)
+    return testName
     
 }
 
-function buildSuiteKeywordsJson(keywords, data) {
+function writeKeywordJsonFile(keyword, parent, rootName) {
    
-    logger.info("Building suite Json")
+    logger.info("Building Keyword Json")
+    var data = {}
+    var attributes = keyword.attributes
+    var keywordName = attributes.name
+    data.name = keywordName
+    data.executedBy = parent
+    data.type = attributes.type || 'NA'
+    data.library = attributes.library || 'NA'
+
+    data.description = 'NA'
+    if ('doc' in keyword) {
+        data.description = keyword.doc[0]
+    }
+
+    data.arguments = []
+    if ('arguments' in keyword) {
+        data.arguments = keyword.arguments[0].arg
+    }
+        
+    data.logMessages = []
+    if ('msg' in keyword) {
+      logMessages = keyword.msg
+      for (var i=0; i < logMessages.length; i++) {
+          data.logMessages[i] = logMessages[i].value
+      } 
+    }
+    
+    var status = keyword.status[0]
+    data.status = status.attributes.status
+    data.starttime = status.attributes.starttime
+    data.endtime = status.attributes.endtime
     data.keywords = []
-    for (var kw = 0; kw < keywords.length; kw++) {
-        var attributes = keywords[kw].attributes
-        var status = keywords[kw].status[0]
-        if ('type' in attributes) {
-            if (attributes.type == 'setup') {
-               data['suite setup'] = {'name': attributes.name,
-                                      'status': status.attributes.status,
-                                      'starttime': status.attributes.starttime,
-                                      'endtime': status.attributes.endtime
-                                     } 
-            } else if (attributes.type == 'teardown') {
-               data['suite teardown'] = {'name': attributes.name,
-                                         'status': status.attributes.status,
-                                         'starttime': status.attributes.starttime,
-                                         'endtime': status.attributes.endtime
-                                        } 
-            }
-            data.keywords[kw] = attributes.name
-            if ('kw' in keywords[kw]) {
-                for (var childKw = 0; childKw < keywords[kw]['kw'].length; childKw++) {
-                    var parentNames = nameCreator([data.name, attributes.name])
-                    buildKeywordsJson(keywords[kw]['kw'][childKw], attributes.name, parentNames)
-                }
-            } 
+    
+    if ('kw' in keyword) {
+        var childKeywords = keyword.kw
+        var keyWordRootName = rootName + '_' + nameCreator(keywordName)
+        for (var k=0; k < childKeywords.length; k++) {
+            data.keywords.push(writeKeywordJsonFile(childKeywords[k], keywordName, keyWordRootName))
         }
     }
     
-}
-
-function buildKeywordsJson(keyword, parent, filePrefix) {
-
-    logger.info("Building Keyword")
-    
-    var keywordObj = {}
-    keywordObj.name = keyword.attributes.name
-    keywordObj.executedBy = parent
-    keywordObj.library = keyword.attributes.library
-    keywordObj.description = keyword.doc[0]
-    keywordObj.arguments = keyword.arguments[0].arg
-    keywordObj.msg = keyword.msg[0].value
-    keywordObj.status = keyword.status[0].attributes.status
-    keywordObj.starttime = keyword.status[0].attributes.starttime
-    keywordObj.endtime = keyword.status[0].attributes.endtime 
-    var keywordFile = path.join(keywordsPath, filePrefix + '_' + keywordObj.name.replace(' ', '_')  + '.json')
-    writeToJsonFile(keywordFile, keywordObj)
-     
-    
+    var keywordFile = path.join(keywordsPath, rootName + '_' + data.name.replace(/ /g, '_')  + '.json')
+    writeToJsonFile(keywordFile.toLowerCase(), data)
+    return data.name 
 }
 
 //All request logger
