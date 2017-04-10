@@ -1,0 +1,2855 @@
+<?xml version="1.0" encoding="utf-8"?>
+<testsuites>
+  <testsuite errors="0" failures="1" name="AsteriskTestSuite" passed="1" skipped="947" tests="2" time="42.07" timestamp="2017-04-07T15:29:21 IST">
+    <testcase name="tests/agi/exit_status" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/apps/agents/agent_acknowledge/agent_acknowledge_error" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/apps/agents/agent_acknowledge/nominal" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/apps/agents/agent_login/login_errors" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/apps/agents/agent_login/nominal" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/apps/agents/agent_request/nominal" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/apps/authenticate/off_nominal" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/apps/bridge/bridge_add" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/apps/bridge/bridge_baseline" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/apps/bridge/bridge_transfer_callee" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/apps/bridge/bridge_wait/bridge_wait_e_options" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/apps/bridge/bridge_wait/bridge_wait_roles" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/apps/bridge/bridge_wait/bridge_wait_s_option" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/apps/channel_redirect" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/apps/chanspy/chanspy_barge" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/apps/chanspy/chanspy_w_mixmonitor" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/apps/confbridge/confbridge_dynamic_menus" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/apps/confbridge/confbridge_end_marked" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/apps/confbridge/confbridge_marked" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/apps/confbridge/confbridge_marked_unmarked" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/apps/confbridge/confbridge_nominal" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/apps/confbridge/confbridge_recording" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/apps/confbridge/confbridge_result" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/apps/confbridge/confbridge_start_muted" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/apps/confbridge/confbridge_timeout" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/apps/confbridge/confbridge_triple_lindy" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/apps/confbridge/confbridge_waitmarked_kick" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/apps/confbridge/confbridge_waitmarked_normal" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/apps/confbridge/confbridge_waitmarked_only" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/apps/confbridge/confbridge_waitmarked_single" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/apps/confbridge/muted_conference_start_muted" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/apps/confbridge/regcontext" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/apps/control_playback/control_forward" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/apps/control_playback/control_pause" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/apps/control_playback/control_restart" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/apps/control_playback/control_reverse" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/apps/control_playback/control_stop" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/apps/control_playback/nominal" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/apps/control_playback/remote_uri" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/apps/dial/action_post_answer/called_party_continue" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/apps/dial/action_post_answer/caller_continue" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/apps/dial/action_post_answer/party_transfer" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/apps/dial/dial_answer" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/apps/dial/dial_busy" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/apps/dial/dial_congestion" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/apps/dial/dial_dtmf_hangup_cancel" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/apps/dial/dial_hangup" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/apps/dial/dial_no_answer" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/apps/dial/dial_parallel/dial_parallel_all_busy" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/apps/dial/dial_parallel/dial_parallel_all_cancel" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/apps/dial/dial_parallel/dial_parallel_all_congestion" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/apps/dial/dial_parallel/dial_parallel_all_no_answer" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/apps/dial/dial_parallel/dial_parallel_all_unavail" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/apps/dial/dial_parallel/dial_parallel_answer_cancel" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/apps/dial/dial_parallel/dial_parallel_answer_cancel_cause" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/apps/dial/dial_parallel/dial_parallel_single_busy" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/apps/dial/dial_parallel/dial_parallel_single_congestion" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/apps/dial/dial_parallel/dial_parallel_single_no_answer" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/apps/dial/dial_parallel/dial_parallel_single_unavail" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/apps/dial/dial_timeout" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/apps/dial/dial_unavail" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/apps/dial/mid_call_events/dial_gosub" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/apps/dial/mid_call_events/dial_macro" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/apps/dial/peer_h_exten" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/apps/dial/privacy/privacy/connect-call" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/apps/dial/privacy/privacy/forever-vm" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/apps/dial/privacy/privacy/go-away" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/apps/dial/privacy/privacy/single-vm" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/apps/dial/privacy/privacy/torture" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/apps/dial/privacy/screening/connect-call" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/apps/dial/privacy/screening/go-away" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/apps/dial/privacy/screening/single-vm" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/apps/dial/privacy/screening/torture" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/apps/directed_pickup/pickup" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/apps/directed_pickup/pickup_chan" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/apps/directory/directory_attendant_exit" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/apps/directory/directory_context_operator_exit" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/apps/directory/directory_operator_exit" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/apps/directory/directory_result" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/apps/disa/nominal/authenticate" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/apps/disa/nominal/no_authentication" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/apps/disa/nominal/no_context" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/apps/disa/off-nominal/bad_auth" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/apps/disa/off-nominal/invalid_exten" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/apps/incomplete/sip_incomplete" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/apps/macro/park_timeout_inside" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/apps/macro/park_timeout_outside" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/apps/macro/redirect_inside" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/apps/macro/redirect_outside" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/apps/mixmonitor" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/apps/mixmonitor_audiohook_inherit" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/apps/mixmonitor_func" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/apps/mixmonitor_rxtx" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/apps/page/page_baseline" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/apps/page/page_predial" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/apps/playback/nominal" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/apps/playback/remote_forward" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/apps/playback/remote_pause" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/apps/playback/remote_restart" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/apps/playback/remote_reverse" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/apps/playback/remote_stop" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/apps/playback/remote_uri" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/apps/queues/macro_gosub_test" result="SKIPPED" time="0.00">
+      <skipped>Skip while failures are debugged</skipped>
+    </testcase>
+    <testcase name="tests/apps/queues/position_priority_maxlen" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/apps/queues/queue_all_paused_no_answer" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/apps/queues/queue_baseline" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/apps/queues/queue_member_forward" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/apps/queues/queue_no_answer" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/apps/queues/queue_one_paused_no_answer" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/apps/queues/queue_penalty_outside_range" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/apps/queues/queue_transfer_callee" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/apps/queues/reason_pause_ami" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/apps/queues/reload_queue_members" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/apps/queues/ringinuse_and_pause" result="SKIPPED" time="0.00">
+      <skipped>Skip while failures are debugged</skipped>
+    </testcase>
+    <testcase name="tests/apps/queues/set_penalty" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/apps/queues/transfer/caller_attended" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/apps/queues/transfer/caller_blind" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/apps/queues/wrapup_time" result="SKIPPED" time="0.00">
+      <skipped>Skip while failures are debugged</skipped>
+    </testcase>
+    <testcase name="tests/apps/say_interrupt" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/apps/statsd/nominal" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/apps/statsd/off-nominal/empty_params" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/apps/statsd/off-nominal/invalid_metric" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/apps/statsd/off-nominal/invalid_sample_rate" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/apps/statsd/off-nominal/invalid_value" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/apps/statsd/off-nominal/invalid_variable" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/apps/statsd/off-nominal/no_metric" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/apps/statsd/off-nominal/no_value" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/apps/statsd/off-nominal/no_variable" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/apps/voicemail/authenticate_extensions" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/apps/voicemail/authenticate_invalid_mailbox" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/apps/voicemail/authenticate_invalid_password" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/apps/voicemail/authenticate_nominal" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/apps/voicemail/check_voicemail_callback" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/apps/voicemail/check_voicemail_delete" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/apps/voicemail/check_voicemail_dialout" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/apps/voicemail/check_voicemail_envelope" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/apps/voicemail/check_voicemail_forward" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/apps/voicemail/check_voicemail_forward_hangup" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/apps/voicemail/check_voicemail_forward_with_prepend" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/apps/voicemail/check_voicemail_new_user" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/apps/voicemail/check_voicemail_new_user_hangup" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/apps/voicemail/check_voicemail_nominal" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/apps/voicemail/check_voicemail_options_change_password" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/apps/voicemail/check_voicemail_options_change_password_spooldir" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/apps/voicemail/check_voicemail_options_record_busy" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/apps/voicemail/check_voicemail_options_record_name" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/apps/voicemail/check_voicemail_options_record_temp" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/apps/voicemail/check_voicemail_options_record_unavail" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/apps/voicemail/check_voicemail_reply" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/apps/voicemail/check_voicemail_while_leaving_msg" result="SKIPPED" time="0.00">
+      <skipped>Leave voicemail has timing problems.  This needs to be fixed to be consistently reliable.</skipped>
+    </testcase>
+    <testcase name="tests/apps/voicemail/func_vmcount" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/apps/voicemail/leave_voicemail_contexts" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/apps/voicemail/leave_voicemail_external_notification" result="SKIPPED" time="0.00">
+      <skipped>External files not being created in tmp location during test execution, needs debugging</skipped>
+    </testcase>
+    <testcase name="tests/apps/voicemail/leave_voicemail_forwarding" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/apps/voicemail/leave_voicemail_forwarding_auto_urgent" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/apps/voicemail/leave_voicemail_nominal" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/apps/voicemail/leave_voicemail_priority" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/apps/voicemail/play_message" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/asyncagi/asyncagi_break" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/blind-transfer-parkingtimeout" result="SKIPPED" time="0.00">
+      <skipped>Skip while failures are debugged</skipped>
+    </testcase>
+    <testcase name="tests/bridge/atxfer_fail_blonde" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/bridge/atxfer_nominal" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/bridge/atxfer_retries" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/bridge/atxfer_setup" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/bridge/atxfer_threeway_nominal" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/bridge/automixmon" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/bridge/automixmon_bridgefeatures" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/bridge/automon" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/bridge/automon_bridgefeatures" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/bridge/blindxfer_nominal" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/bridge/blindxfer_setup" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/bridge/blonde_nominal" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/bridge/bridge_action" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/bridge/connected_line_update" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/bridge/dial_LS_options" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/bridge/disconnect" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/bridge/feature_timeout_hangup" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/bridge/hold_redirect" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/bridge/parkcall" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/bridge/parkcall_blindxfer" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/bridge/parkcall_bridgefeatures" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/bridge/parkcall_timeout/comebacktoorigin_no" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/bridge/parkcall_timeout/comebacktoorigin_yes" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/bridge/simple_bridge" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/bridge/transfer_capabilities" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/bridge/transfer_capabilities_bridgefeatures" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/bridge/transfer_failure" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/callparking" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/callparking_retrieval" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/cause_answered_elsewhere" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/cdr/app_dial_G_flag" result="SKIPPED" time="0.00">
+      <skipped>Skip while failures are debugged</skipped>
+    </testcase>
+    <testcase name="tests/cdr/app_queue" result="SKIPPED" time="0.00">
+      <skipped>Skip while failures are debugged</skipped>
+    </testcase>
+    <testcase name="tests/cdr/batch_cdrs" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/cdr/cdr_bridge_multi" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/cdr/cdr_dial_subroutines" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/cdr/cdr_manipulation/cdr_fork_end_time" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/cdr/cdr_manipulation/cdr_prop_disable" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/cdr/cdr_manipulation/console_fork_after_busy_forward" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/cdr/cdr_manipulation/console_fork_before_dial" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/cdr/cdr_manipulation/func_cdr" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/cdr/cdr_manipulation/nocdr" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/cdr/cdr_originate_sip_congestion_log" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/cdr/cdr_properties/blind-transfer-accountcode" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/cdr/cdr_properties/cdr_accountcode" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/cdr/cdr_properties/cdr_userfield" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/cdr/cdr_unanswered_yes" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/cdr/console_dial_sip_answer" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/cdr/console_dial_sip_busy" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/cdr/console_dial_sip_congestion" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/cdr/console_dial_sip_transfer" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/cdr/originate-cdr-disposition" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/cdr/sqlite3" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/SIP/SDP_attribute_passthrough" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/SIP/SDP_offer_answer" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/SIP/acl_call" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/SIP/alwaysauthreject" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/SIP/ami/sip_notify/content" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/SIP/ami/sip_notify/custom_headers" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/SIP/custom_info" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/SIP/device_state_notification" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/SIP/direct_rtp_fallback" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/SIP/directrtpsetup" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/SIP/generic_ccss" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/SIP/handle_response_address_incomplete" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/SIP/handle_response_refer" result="SKIPPED" time="0.00">
+      <skipped>Skip while failures are debugged</skipped>
+    </testcase>
+    <testcase name="tests/channels/SIP/hangupcause" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/SIP/header_parsing" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/SIP/info_dtmf" result="FAIL" time="34.66">
+      <failure>Running ['tests/channels/SIP/info_dtmf/run-test'] ...
+[Apr 07 15:29:55] WARNING[20459]: asterisk.test_case:519 _reactor_timeout: Reactor timeout: '30' seconds
+
+[Apr 07 15:29:55] WARNING[20459]: __main__:110 main: Failed to receive 48 expected events - received 0 instead
+
+</failure>
+    </testcase>
+    <testcase name="tests/channels/SIP/invite_no_totag" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/SIP/invite_retransmit" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/SIP/message_auth" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/SIP/message_auth_cust_hdr" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/SIP/message_disabled" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/SIP/message_from_call" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/SIP/message_mark_all_outbound" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/SIP/message_send_ami" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/SIP/message_unauth" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/SIP/message_unauth_from" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/SIP/nat_supertest" result="SKIPPED" time="0.00">
+      <skipped>See ASTERISK-19565</skipped>
+    </testcase>
+    <testcase name="tests/channels/SIP/no_ack_dialog_cleanup" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/SIP/no_reinvite_after_491" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/SIP/noload_res_srtp" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/SIP/noload_res_srtp_attempt_srtp" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/SIP/options" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/SIP/outbound_register_from" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/SIP/outbound_reregister_from" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/SIP/path" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/SIP/pcap_demo" result="SKIPPED" time="0.00">
+      <skipped>True</skipped>
+    </testcase>
+    <testcase name="tests/channels/SIP/realtime_nosipregs" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/SIP/realtime_sipregs" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/SIP/redirecting_reason/v13.0.0" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/SIP/redirecting_reason/v13.8.0" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/SIP/refer_replaces_to_self" result="SKIPPED" time="0.00">
+      <skipped>See ASTERISK-22392</skipped>
+    </testcase>
+    <testcase name="tests/channels/SIP/register_forbidden_retry/no_retry" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/SIP/register_forbidden_retry/retry" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/SIP/rfc2833_dtmf_detect" result="PASS" time="7.41"/>
+    <testcase name="tests/channels/SIP/route" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/SIP/secure_bridge_media" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/SIP/sendrpid/pai/trust_legacy/pres_allow" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/SIP/sendrpid/pai/trust_legacy/pres_prohib" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/SIP/sendrpid/pai/trust_no/pres_allow" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/SIP/sendrpid/pai/trust_no/pres_prohib" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/SIP/sendrpid/pai/trust_yes/pres_allow" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/SIP/sendrpid/pai/trust_yes/pres_prohib" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/SIP/sendrpid/rpid/trust_legacy/pres_allow" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/SIP/sendrpid/rpid/trust_legacy/pres_prohib" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/SIP/sendrpid/rpid/trust_no/pres_allow" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/SIP/sendrpid/rpid/trust_no/pres_prohib" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/SIP/sendrpid/rpid/trust_yes/pres_allow" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/SIP/sendrpid/rpid/trust_yes/pres_prohib" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/SIP/session_timers/basic_uac_refresh" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/SIP/session_timers/basic_uac_teardown" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/SIP/session_timers/basic_uas_refresh" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/SIP/session_timers/basic_uas_teardown" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/SIP/session_timers/check_require" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/SIP/session_timers/uac_multiple_422_accept" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/SIP/session_timers/uac_multiple_422_originate" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/SIP/session_timers/uac_refresher_at_200" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/SIP/session_timers/uac_se_below_minse" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/SIP/session_timers/uas_minimum_se" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/SIP/session_timers/uas_originate/large_minse_large_se" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/SIP/session_timers/uas_originate/large_minse_no_se" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/SIP/session_timers/uas_originate/medium_minse_large_se" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/SIP/session_timers/uas_originate/medium_minse_medium_se" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/SIP/session_timers/uas_originate/medium_minse_no_se" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/SIP/session_timers/uas_originate/no_minse_large_se" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/SIP/session_timers/uas_originate/no_minse_medium_se" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/SIP/session_timers/uas_originate/no_minse_no_se" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/SIP/session_timers/uas_originate/no_minse_small_se" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/SIP/session_timers/uas_originate/small_minse_large_se" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/SIP/session_timers/uas_originate/small_minse_medium_se" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/SIP/session_timers/uas_originate/small_minse_no_se" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/SIP/session_timers/uas_originate/small_minse_small_se" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/SIP/sip2cause" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/SIP/sip_attended_transfer" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/SIP/sip_attended_transfer_tcp" result="SKIPPED" time="0.00">
+      <skipped>See ASTERISK-20614</skipped>
+    </testcase>
+    <testcase name="tests/channels/SIP/sip_attended_transfer_v6" result="SKIPPED" time="0.00">
+      <skipped>See ASTERISK-20616</skipped>
+    </testcase>
+    <testcase name="tests/channels/SIP/sip_blind_transfer/callee_refer_only" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/SIP/sip_blind_transfer/callee_with_reinvite" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/SIP/sip_blind_transfer/caller_refer_only" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/SIP/sip_blind_transfer/caller_with_reinvite" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/SIP/sip_bye_also" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/SIP/sip_cause" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/SIP/sip_channel_params" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/SIP/sip_custom_presence/multiple_state_change" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/SIP/sip_custom_presence/nominal_state_change" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/SIP/sip_custom_presence/non_digium_state_change" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/SIP/sip_custom_presence/resubscribe" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/SIP/sip_hold" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/SIP/sip_hold_direct_media" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/SIP/sip_hold_ice" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/SIP/sip_hold_no_moh" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/SIP/sip_one_legged_transfer" result="SKIPPED" time="0.00">
+      <skipped>Skip while failures are debugged - see ASTERISK-23543</skipped>
+    </testcase>
+    <testcase name="tests/channels/SIP/sip_one_legged_transfer_v6" result="SKIPPED" time="0.00">
+      <skipped>Skip while failures are debugged</skipped>
+    </testcase>
+    <testcase name="tests/channels/SIP/sip_outbound_address" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/SIP/sip_outbound_proxy" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/SIP/sip_register" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/SIP/sip_register_domain_acl" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/SIP/sip_srtp/srtp_call" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/SIP/sip_srtp/srtp_sdp_offer_answer" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/SIP/sip_tls_call" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/SIP/sip_tls_register" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/SIP/sip_unregister" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/SIP/subscribe" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/SIP/tcpauthlimit/sipp_client_scenario" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/SIP/tcpauthlimit/tcp_client_scenario" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/SIP/tcpauthtimeout/timeout_should_happen" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/SIP/tcpauthtimeout/timeout_should_not_happen" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/SIP/tel_uri" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/SIP/use_contact_from_200" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/iax2/acl_call" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/iax2/basic-call" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/iax2/hangupcause" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/local/local_app" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/local/local_call" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/local/local_holding_bridge" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/local/local_loop" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/local/local_optimize_away" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/accountcode" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/acl_call" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/ami/pjsip_notify/content" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/ami/pjsip_notify/custom_headers" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/ami/pjsip_notify/reserved_headers" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/ami/pjsip_notify/to_uri" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/ami/pjsip_qualify" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/ami/show_endpoint" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/ami/show_endpoints" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/ami/show_registration_inbound_contact_statuses" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/ami/show_registrations_inbound" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/ami/show_registrations_outbound" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/ami/show_subscriptions" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/auth_security_events" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/basic_calls/incoming/nominal/authed/md5/ident_by_header" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/basic_calls/incoming/nominal/authed/md5/ident_by_host" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/basic_calls/incoming/nominal/authed/md5/ident_by_user" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/basic_calls/incoming/nominal/authed/md5/ident_by_user_drop_options" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/basic_calls/incoming/nominal/authed/userpass/ident_by_auth_user" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/basic_calls/incoming/nominal/authed/userpass/ident_by_header" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/basic_calls/incoming/nominal/authed/userpass/ident_by_host" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/basic_calls/incoming/nominal/authed/userpass/ident_by_user" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/basic_calls/incoming/nominal/authed/userpass/ident_by_user_drop_options" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/basic_calls/incoming/nominal/peer_in_dialog_auths" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/basic_calls/incoming/nominal/unauthed/ident_by_header" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/basic_calls/incoming/nominal/unauthed/ident_by_host" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/basic_calls/incoming/nominal/unauthed/ident_by_user" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/basic_calls/incoming/nominal/unauthed/ident_by_user_drop_options" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/basic_calls/incoming/off-nominal/bare_ack" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/basic_calls/incoming/off-nominal/incompatible_codecs" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/basic_calls/incoming/off-nominal/invalid_sdp" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/basic_calls/incoming/off-nominal/md5" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/basic_calls/incoming/off-nominal/unknown_user" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/basic_calls/incoming/off-nominal/userpass/ident_by_auth_user" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/basic_calls/incoming/off-nominal/userpass/wrong_credentials" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/basic_calls/outgoing/nominal/auth" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/basic_calls/outgoing/nominal/echo" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/basic_calls/outgoing/nominal/nat" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/basic_calls/outgoing/nominal/peer_in_dialog_auths" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/basic_calls/outgoing/nominal/playback" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/basic_calls/outgoing/off-nominal/bob_does_not_answer" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/basic_calls/outgoing/off-nominal/bob_does_not_exist" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/basic_calls/outgoing/off-nominal/bob_incompatible_codecs" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/basic_calls/outgoing/off-nominal/bob_is_busy" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/basic_calls/outgoing/off-nominal/call_canceled" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/basic_calls/two_parties/nominal/alice_initiated/alice_hangs_up" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/basic_calls/two_parties/nominal/alice_initiated/bob_hangs_up" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/basic_calls/two_parties/nominal/alice_initiated/requested_capabilities" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/call_pickup" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/config_wizard/hints" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/config_wizard/phone" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/config_wizard/registration" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/config_wizard/trunk" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/configuration/duplicate_sections" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/configuration/happy_config" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/dialplan_functions/pjsip_aor" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/dialplan_functions/pjsip_channel" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/dialplan_functions/pjsip_contact" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/dialplan_functions/pjsip_endpoint" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/dialplan_functions/pjsip_session_refresh" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/diversion/diversion_basic" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/diversion/diversion_basic_drop_options" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/diversion/diversion_caller_id" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/diversion/diversion_request" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/diversion/diversion_request_drop_options" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/diversion/diversion_response" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/diversion/diversion_response_drop_options" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/dtmf_incompatible" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/forward_loop" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/handle_options_request" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/handle_options_request_drop_options" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/headers" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/hold" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/hold_ice" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/hold_inactive" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/identify/header" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/identify/header_or_ip" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/identify/ordering" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/in_dialog_invite_replaces" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/in_dialog_options" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/incoming_call_on_second_transport" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/incoming_calls_without_auth" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/info_dtmf" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/info_empty" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/keep_alive" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/message/message_basic" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/message/message_basic_drop_options" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/message/message_context" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/message/message_cust_hdr" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/message/message_from" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/message/message_in_dialog" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/message/message_retrans" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/message/message_send_ami" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/message/message_to_uri" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/nat/rewrite_contact/route_set_request" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/nat/rewrite_contact/route_set_response" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/one_touch_recording/endpoint_config" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/one_touch_recording/features_config/features_configured" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/one_touch_recording/features_config/features_not_configured" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/optimistic_srtp/mandatory_with_optimistic_offer" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/optimistic_srtp/optimistic_with_mandatory_offer" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/optimistic_srtp/optimistic_with_no_crypto" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/optimistic_srtp/optimistic_with_optimistic_offer" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/publish/asterisk_event_devicestate" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/publish/asterisk_event_mwi" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/publish/dialog_info_xml" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/publish/presence_pidf" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/publish/presence_xpidf" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/qualify/auth" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/qualify/basic" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/qualify/max_initial_qualify_time" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/qualify/no_qualify" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/qualify/qualify_timeout" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/refer_send_to_vm/v12.2.0" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/refer_send_to_vm/v13.8.0" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/registration/inbound/nominal/config_options/maximum_expiration" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/registration/inbound/nominal/config_options/minimum_expiration" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/registration/inbound/nominal/config_options/remove_existing" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/registration/inbound/nominal/contact_acl/ipv4" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/registration/inbound/nominal/contact_acl/ipv6" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/registration/inbound/nominal/mixed/unauthed" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/registration/inbound/nominal/multiple_contacts/authed" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/registration/inbound/nominal/multiple_contacts/unauthed" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/registration/inbound/nominal/multiple_contacts/unauthed_drop_options" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/registration/inbound/nominal/path" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/registration/inbound/nominal/regcontext" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/registration/inbound/nominal/single_contact/authed" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/registration/inbound/nominal/single_contact/unauthed" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/registration/inbound/nominal/single_contact/unauthed_drop_options" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/registration/inbound/nominal/unregister/all_contacts" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/registration/inbound/nominal/unregister/multiple_contacts" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/registration/inbound/nominal/unregister/single_contact" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/registration/inbound/nominal/user_agent" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/registration/inbound/off-nominal/max_contacts" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/registration/inbound/off-nominal/no_contact_header" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/registration/inbound/off-nominal/unregister/no_expires_header" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/registration/inbound/off-nominal/wrong_password" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/registration/outbound/auth_loop" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/registration/outbound/fatal_retry" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/registration/outbound/forbidden_retry" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/registration/outbound/interval_too_brief" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/registration/outbound/line_parameter" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/registration/outbound/unregister/unauthed" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/reinvite_early" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/reinvite_pending" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/resolver/a" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/resolver/aaaa" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/resolver/naptr/explicit_transport_configured" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/resolver/naptr/order" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/resolver/naptr/preference" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/resolver/naptr/preference_failover" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/resolver/naptr/restricted_transport" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/resolver/naptr/transport_tcp" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/resolver/naptr/transport_udp" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/resolver/naptr/transport_unspecified" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/resolver/srv/explicit_transport_configured" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/resolver/srv/failover/in_dialog/timeout" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/resolver/srv/failover/in_dialog/transport_tcp" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/resolver/srv/failover/in_dialog/transport_udp" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/resolver/srv/failover/in_dialog/transport_unspecified" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/resolver/srv/failover/out_of_dialog/timeout" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/resolver/srv/failover/out_of_dialog/transport_tcp" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/resolver/srv/failover/out_of_dialog/transport_udp" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/resolver/srv/failover/out_of_dialog/transport_unspecified" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/resolver/srv/priority" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/resolver/srv/transport_tcp" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/resolver/srv/transport_udp" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/resolver/srv/transport_unspecified" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/rpid_immediate" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/rtcp/rtcp_mux_callee/direct" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/rtcp/rtcp_mux_callee/ice" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/rtcp/rtcp_mux_caller/direct" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/rtcp/rtcp_mux_caller/ice" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/rtcp/rtcp_mux_disabled/direct" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/rtcp/rtcp_mux_disabled/ice" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/rtcp/rtcp_mux_enabled/direct" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/rtcp/rtcp_mux_enabled/ice" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/rtp/bind_rtp_to_media_address" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/rtp/rtp_keepalive/base" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/rtp/rtp_keepalive/direct_media" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/rtp/timeout" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/rtp/timeout_hold" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/sdp_offer_answer/attribute_passthrough/speex_h263_h264" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/sdp_offer_answer/incoming/nominal/multiple-media-stream/audio" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/sdp_offer_answer/incoming/nominal/multiple-media-stream/audio-video-app" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/sdp_offer_answer/incoming/nominal/multiple-media-stream/audio-video/basic" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/sdp_offer_answer/incoming/nominal/multiple-media-stream/audio-video/multiple-audio" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/sdp_offer_answer/incoming/nominal/multiple-media-stream/audio-video/multiple-video" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/sdp_offer_answer/incoming/nominal/multiple-media-stream/video" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/sdp_offer_answer/incoming/nominal/single-media-stream/audio/avpf" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/sdp_offer_answer/incoming/nominal/single-media-stream/audio/basic" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/sdp_offer_answer/incoming/nominal/single-media-stream/audio/packetization" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/sdp_offer_answer/incoming/nominal/single-media-stream/video/basic" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/sdp_offer_answer/incoming/off-nominal/multiple-media-stream/audio-video/codec-mismatch" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/sdp_offer_answer/incoming/off-nominal/multiple-media-stream/audio-video/hold-declined" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/sdp_offer_answer/incoming/off-nominal/multiple-media-stream/audio-video/initial-declined" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/sdp_offer_answer/incoming/off-nominal/single-media-stream/audio/avpf-mismatch" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/sdp_offer_answer/incoming/off-nominal/single-media-stream/audio/codec-mismatch" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/sdp_offer_answer/incoming/off-nominal/single-media-stream/audio/initial-declined" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/set_var" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/srtp_negotiation" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/srtp_not_loaded" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/statsd/contacts" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/statsd/registrations" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/subscriptions/ast_restart" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/subscriptions/below_min_expiry" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/subscriptions/mismatch" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/subscriptions/mwi/missing_aor" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/subscriptions/mwi/mwi_aggregate" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/subscriptions/mwi/no_accept_header" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/subscriptions/mwi/sub_setup_teardown" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/subscriptions/mwi/sub_setup_teardown_drop_options" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/subscriptions/mwi/unsolicited/initial_notify" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/subscriptions/mwi/unsolicited/mailbox_count_changes" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/subscriptions/mwi/unsolicited/notify_after_register" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/subscriptions/mwi/unsolicited/notify_after_register_realtime" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/subscriptions/nat_notify" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/subscriptions/no_event_header" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/subscriptions/presence/devstate_repeat" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/subscriptions/presence/dialog_info_xml" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/subscriptions/presence/digium_presence" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/subscriptions/presence/no_accept_header" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/subscriptions/presence/presence_pidf" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/subscriptions/presence/presence_xpidf" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/subscriptions/presence/presencestate_repeat" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/subscriptions/presence/presencestate_repeat_okay" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/subscriptions/presence/resubscribe" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/subscriptions/presence/unsubscribe" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/subscriptions/presence/verify_bodies/verify_pidf" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/subscriptions/presence/verify_bodies/verify_xpidf" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/subscriptions/rls/lists/nominal/mwi/batched/basic" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/subscriptions/rls/lists/nominal/mwi/batched/multiple_resources_single_change" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/subscriptions/rls/lists/nominal/mwi/batched/resubscription_interruption" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/subscriptions/rls/lists/nominal/mwi/batched/single_resource_multiple_changes" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/subscriptions/rls/lists/nominal/mwi/batched/termination_interruption" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/subscriptions/rls/lists/nominal/mwi/full_state" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/subscriptions/rls/lists/nominal/mwi/initial_notify" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/subscriptions/rls/lists/nominal/mwi/partial_state" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/subscriptions/rls/lists/nominal/mwi/resubscribe_full_state" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/subscriptions/rls/lists/nominal/mwi/subscription_establishment" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/subscriptions/rls/lists/nominal/mwi/termination_full_state" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/subscriptions/rls/lists/nominal/presence/batched/basic" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/subscriptions/rls/lists/nominal/presence/batched/multiple_resources_single_change" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/subscriptions/rls/lists/nominal/presence/batched/resubscription_interruption" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/subscriptions/rls/lists/nominal/presence/batched/single_resource_multiple_changes" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/subscriptions/rls/lists/nominal/presence/batched/termination_interruption" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/subscriptions/rls/lists/nominal/presence/full_state" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/subscriptions/rls/lists/nominal/presence/initial_notify" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/subscriptions/rls/lists/nominal/presence/partial_state" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/subscriptions/rls/lists/nominal/presence/resubscribe_full_state" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/subscriptions/rls/lists/nominal/presence/subscription_establishment" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/subscriptions/rls/lists/nominal/presence/termination_full_state" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/subscriptions/rls/lists/off_nominal/large_notify" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/subscriptions/rls/lists/off_nominal/mwi/list_does_not_exist" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/subscriptions/rls/lists/off_nominal/mwi/no_list_resources_exist" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/subscriptions/rls/lists/off_nominal/mwi/resource_duplication" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/subscriptions/rls/lists/off_nominal/mwi/some_list_resources_exist" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/subscriptions/rls/lists/off_nominal/mwi/subscribe_wo_eventlist_support" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/subscriptions/rls/lists/off_nominal/mwi/subscribe_wrong_event_header" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/subscriptions/rls/lists/off_nominal/presence/list_does_not_exist" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/subscriptions/rls/lists/off_nominal/presence/no_list_resources_exist" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/subscriptions/rls/lists/off_nominal/presence/resource_duplication" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/subscriptions/rls/lists/off_nominal/presence/some_list_resources_exist" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/subscriptions/rls/lists/off_nominal/presence/subscribe_wo_eventlist_support" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/subscriptions/rls/lists/off_nominal/presence/subscribe_wrong_event_header" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/subscriptions/rls/lists_of_lists/nominal/mwi/batched" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/subscriptions/rls/lists_of_lists/nominal/mwi/full_state_alice" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/subscriptions/rls/lists_of_lists/nominal/mwi/full_state_carol" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/subscriptions/rls/lists_of_lists/nominal/mwi/initial_notify" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/subscriptions/rls/lists_of_lists/nominal/mwi/partial_state_alice" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/subscriptions/rls/lists_of_lists/nominal/mwi/partial_state_carol" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/subscriptions/rls/lists_of_lists/nominal/mwi/resubscribe_full_state" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/subscriptions/rls/lists_of_lists/nominal/mwi/subscription_establishment" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/subscriptions/rls/lists_of_lists/nominal/mwi/termination_full_state" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/subscriptions/rls/lists_of_lists/nominal/presence/batched" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/subscriptions/rls/lists_of_lists/nominal/presence/full_state_alice" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/subscriptions/rls/lists_of_lists/nominal/presence/full_state_carol" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/subscriptions/rls/lists_of_lists/nominal/presence/initial_notify" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/subscriptions/rls/lists_of_lists/nominal/presence/listception_initial_notify" result="SKIPPED" time="0.00">
+      <skipped>See ASTERISK-24181</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/subscriptions/rls/lists_of_lists/nominal/presence/partial_state_alice" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/subscriptions/rls/lists_of_lists/nominal/presence/partial_state_carol" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/subscriptions/rls/lists_of_lists/nominal/presence/resubscribe_full_state" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/subscriptions/rls/lists_of_lists/nominal/presence/subscription_establishment" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/subscriptions/rls/lists_of_lists/nominal/presence/termination_full_state" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/subscriptions/rls/lists_of_lists/off_nominal/mwi/resource_duplication" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/subscriptions/rls/lists_of_lists/off_nominal/mwi/shared_name_w_list_support" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/subscriptions/rls/lists_of_lists/off_nominal/mwi/shared_name_wo_list_support" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/subscriptions/rls/lists_of_lists/off_nominal/presence/resource_duplication" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/subscriptions/rls/lists_of_lists/off_nominal/presence/shared_name_w_list_support" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/subscriptions/rls/lists_of_lists/off_nominal/presence/shared_name_wo_list_support" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/subscriptions/subscribe_context" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/subscriptions/unallowed" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/subscriptions/unknown_event_package" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/transfers/asterisk/endpoint/redirect" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/transfers/asterisk/endpoint/refer" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/transfers/asterisk/uri/redirect" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/transfers/asterisk/uri/refer" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/transfers/attended_transfer/nominal/callee_local" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/transfers/attended_transfer/nominal/callee_local_anonymous" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/transfers/attended_transfer/nominal/callee_local_app" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/transfers/attended_transfer/nominal/callee_local_blonde" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/transfers/attended_transfer/nominal/callee_local_direct_media" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/transfers/attended_transfer/nominal/callee_remote" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/transfers/attended_transfer/nominal/caller_local" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/transfers/attended_transfer/nominal/caller_local_app" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/transfers/attended_transfer/nominal/caller_local_blonde" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/transfers/attended_transfer/nominal/caller_local_direct_media" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/transfers/attended_transfer/nominal/caller_remote" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/transfers/blind_transfer/callee_direct_media" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/transfers/blind_transfer/callee_refer_only" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/transfers/blind_transfer/callee_with_hold" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/transfers/blind_transfer/caller_direct_media" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/transfers/blind_transfer/caller_refer_only" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/transfers/blind_transfer/caller_with_hold" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/transfers/blind_transfer/caller_with_hold_drop_options" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/transfers/blind_transfer/goto_on_blindxfr" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/transfers/blind_transfer/no_target_in_refer" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/transfers/blind_transfer/off_nominal/transferer_reinvite" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/transport/symmetric/invite" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/transport/symmetric/notify" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/transport/symmetric/options" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/user_eq_phone" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/channels/pjsip/video_calls/fast_picture_update" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/codecs/opus/decode" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/codecs/opus/encode" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/codecs/opus/fec/jitterbuffer/adaptive" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/codecs/opus/fec/jitterbuffer/fixed" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/codecs/opus/fec/no_jitterbuffer" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/codecs/opus/fmtp_with_spaces" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/connected_line/macro" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/connected_line/subroutine" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/dynamic-modules" result="SKIPPED" time="0.00">
+      <skipped>See ASTERISK-19567</skipped>
+    </testcase>
+    <testcase name="tests/endpoints/statsd" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/example" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/fastagi/channel-status" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/fastagi/connect" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/fastagi/control-stream-file" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/fastagi/database" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/fastagi/execute" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/fastagi/get-data" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/fastagi/hangup" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/fastagi/record-file" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/fastagi/say-alpha" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/fastagi/say-date" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/fastagi/say-datetime" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/fastagi/say-digits" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/fastagi/say-number" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/fastagi/say-phonetic" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/fastagi/say-time" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/fastagi/stream-file" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/fastagi/wait-for-digit" result="SKIPPED" time="0.00">
+      <skipped>Requires patch to StarPy</skipped>
+    </testcase>
+    <testcase name="tests/fax/pjsip/ast-2016-003" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/fax/pjsip/directmedia_reinvite_t38" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/fax/pjsip/gateway_native_t38" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/fax/pjsip/gateway_t38_g711" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/fax/pjsip/t38" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/fax/pjsip/t38_with_auth" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/fax/sip/directmedia_reinvite_t38" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/fax/sip/gateway_g711_t38" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/fax/sip/gateway_mix1" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/fax/sip/gateway_mix2" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/fax/sip/gateway_mix3" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/fax/sip/gateway_mix4" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/fax/sip/gateway_native_t38" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/fax/sip/gateway_native_t38_ced" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/fax/sip/gateway_no_t38" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/fax/sip/gateway_t38_g711" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/fax/sip/gateway_timeout1" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/fax/sip/gateway_timeout2" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/fax/sip/gateway_timeout3" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/fax/sip/gateway_timeout4" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/fax/sip/gateway_timeout5" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/fax/sip/local_channel_t38_queryoption" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/fax/sip/t38_negotiation_timeout" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/fax/sip/voxfax_g711" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/feature_attended_transfer" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/feature_blonde_transfer" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/feature_call_pickup" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/funcs/func_global" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/funcs/func_jitterbuffer" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/funcs/func_presencestate" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/funcs/func_push" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/funcs/func_srv" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/funcs/func_talkdetect" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/hangup/handlers" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/hangup/handlers_endbeforehexten" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/hep/pjsip" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/hep/pjsip-auth" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/hep/pjsip-ipv6" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/hep/rtcp-receiver" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/hep/rtcp-sender" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/http_server/servername" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/ivr_test" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/manager/acl-login" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/manager/action-events-response" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/manager/authlimit" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/manager/authtimeout" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/manager/bridge_actions" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/manager/config/advanced" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/manager/config/basic" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/manager/config/no_preserve_effective_context" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/manager/connected_line" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/manager/danger/dangerous" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/manager/danger/safe" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/manager/device_state_changed" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/manager/device_state_list" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/manager/escaped_values" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/manager/exten_state_list" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/manager/login" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/manager/manager_vars" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/manager/mixmonitor" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/manager/originate" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/manager/presence_state_changed" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/manager/presence_state_list" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/manager/redirect/dual/app" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/manager/redirect/dual/bridge/different" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/manager/redirect/dual/bridge/same" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/manager/redirect/single/app" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/manager/redirect/single/bridge" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/manager/response-time" result="SKIPPED" time="0.00">
+      <skipped>Skip while failures are debugged</skipped>
+    </testcase>
+    <testcase name="tests/manager/status" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/manager/status_all_vars" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/manager/userevent" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/masquerade" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/pbx/accountcode/dial_none" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/pbx/accountcode/dial_peer_none" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/pbx/accountcode/dial_peer_override" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/pbx/accountcode/dial_predial" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/pbx/accountcode/dial_straight_none" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/pbx/accountcode/dial_straight_override" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/pbx/accountcode/local_crossover" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/pbx/accountcode/local_crossover_back" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/pbx/accountcode/local_originate" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/pbx/accountcode/queue_none" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/pbx/accountcode/queue_peer_none" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/pbx/accountcode/queue_peer_preserve" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/pbx/ast_db" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/pbx/autohints" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/pbx/call-files" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/pbx/call-files2" result="SKIPPED" time="0.00">
+      <skipped>Skip while failures are debugged</skipped>
+    </testcase>
+    <testcase name="tests/pbx/call_file_retries_alwaysdelete" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/pbx/call_file_retries_archive" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/pbx/call_file_retries_fail" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/pbx/call_file_retries_success" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/pbx/callerid_match" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/pbx/create_call_files" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/pbx/dialplan" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/pbx/dialplan_reload" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/pbx/dialplan_save" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/pbx/manager_extensions" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/pbx/merge_contexts" result="SKIPPED" time="0.00">
+      <skipped>Skip while failures are debugged</skipped>
+    </testcase>
+    <testcase name="tests/pbx/pbx_lua_background" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/pbx/pbx_lua_goto" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/phoneprov/res_phoneprov" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/phoneprov/res_phoneprov_pjsip" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/predial" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/realtime/destroy" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/realtime/multi" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/realtime/single" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/realtime/static" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/realtime/store" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/realtime/update" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/redirecting/forwardername" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/redirecting/macro" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/redirecting/subroutine" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/remote-test" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/rest_api/CORS" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/rest_api/applications/channel-subscriptions/basic_subscription" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/rest_api/applications/channel-subscriptions/originate_to_dialplan/non_local_channels" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/rest_api/applications/channel-subscriptions/originate_to_other_stasis_app/local_channels" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/rest_api/applications/channel-subscriptions/originate_to_other_stasis_app/non_local_channels" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/rest_api/applications/channel-subscriptions/originate_to_stasis_app/local_channels" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/rest_api/applications/double-subscribe-device-state" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/rest_api/applications/errors" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/rest_api/applications/stasisstatus" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/rest_api/applications/subscribe-all" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/rest_api/applications/subscribe-all-bridge" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/rest_api/applications/subscribe-bridge" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/rest_api/applications/subscribe-device-state" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/rest_api/applications/subscribe-endpoint/nominal/resource" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/rest_api/applications/subscribe-endpoint/nominal/tech" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/rest_api/applications/subscribe-endpoint/off-nominal/unknown_resource" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/rest_api/applications/subscribe-endpoint/off-nominal/unknown_tech" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/rest_api/asterisk/config/dynamic/create" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/rest_api/asterisk/config/dynamic/delete" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/rest_api/asterisk/config/dynamic/get" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/rest_api/asterisk/config/dynamic/registration_cleanup" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/rest_api/asterisk/config/dynamic/update" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/rest_api/asterisk/logging/add_log" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/rest_api/asterisk/logging/get_logging" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/rest_api/asterisk/logging/rotate_log" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/rest_api/asterisk/modules/get_module" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/rest_api/asterisk/modules/get_modules" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/rest_api/asterisk/modules/get_unknown_module" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/rest_api/asterisk/modules/load_already_loaded_module" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/rest_api/asterisk/modules/load_module" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/rest_api/asterisk/modules/load_unknown_module" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/rest_api/asterisk/modules/reload_module" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/rest_api/asterisk/modules/reload_unknown_module" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/rest_api/asterisk/modules/reload_unloaded_module" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/rest_api/asterisk/modules/unload_already_unloaded_module" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/rest_api/asterisk/modules/unload_module" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/rest_api/authentication" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/rest_api/bridges/add_recording_channel" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/rest_api/bridges/bridge_by_id" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/rest_api/bridges/bridge_record" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/rest_api/bridges/delete" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/rest_api/bridges/error" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/rest_api/bridges/hangup" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/rest_api/bridges/happy" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/rest_api/bridges/id_propagate" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/rest_api/bridges/move" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/rest_api/bridges/no_id_propagate" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/rest_api/bridges/playback/basic" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/rest_api/bridges/playback/forward" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/rest_api/bridges/playback/reverse" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/rest_api/bridges/playback/tones" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/rest_api/bridges/unhappy" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/rest_api/bridges/video" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/rest_api/channels/connected_line_update" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/rest_api/channels/create_dial_bridge/bridge/bridge_after_answer" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/rest_api/channels/create_dial_bridge/bridge/bridge_early_media" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/rest_api/channels/create_dial_bridge/bridge/bridge_then_dial" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/rest_api/channels/create_dial_bridge/bridge/bridge_while_ringing" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/rest_api/channels/create_dial_bridge/create/nominal" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/rest_api/channels/create_dial_bridge/create/off-nominal" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/rest_api/channels/create_dial_bridge/dial/nominal/basic" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/rest_api/channels/create_dial_bridge/dial/nominal/continue" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/rest_api/channels/create_dial_bridge/dial/off-nominal" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/rest_api/channels/create_duplicate_id" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/rest_api/channels/hold/hold_intercept" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/rest_api/channels/originate" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/rest_api/channels/originate_duplicate_id" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/rest_api/channels/originate_then_continue" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/rest_api/channels/originate_to_dialplan" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/rest_api/channels/originate_with_id" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/rest_api/channels/originate_with_linkedid" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/rest_api/channels/originate_with_vars" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/rest_api/channels/playback/basic" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/rest_api/channels/playback/forward" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/rest_api/channels/playback/lists/basic" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/rest_api/channels/playback/lists/forward" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/rest_api/channels/playback/lists/reverse" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/rest_api/channels/playback/lists/stop" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/rest_api/channels/playback/reverse" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/rest_api/channels/playback/to_channel_in_bridge" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/rest_api/channels/playback/to_channel_in_bridge_hangup" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/rest_api/channels/playback/tones" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/rest_api/channels/playback/tones_w_tonezone" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/rest_api/channels/redirect/nominal" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/rest_api/channels/redirect/off-nominal" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/rest_api/channels/snoop_id" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/rest_api/channels/snoop_spy" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/rest_api/channels/snoop_whisper" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/rest_api/chunked-transfer" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/rest_api/content-type" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/rest_api/continue" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/rest_api/danger/dangerous" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/rest_api/danger/safe" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/rest_api/device_state/add_invalid" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/rest_api/device_state/add_remove" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/rest_api/device_state/change" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/rest_api/device_state/list" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/rest_api/events/subscribe-ws" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/rest_api/events/user/channel" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/rest_api/events/user/invalid" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/rest_api/events/user/multi" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/rest_api/events/variables" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/rest_api/external_interaction/ami_bridge/stasis_app/non_stasis_app" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/rest_api/external_interaction/ami_bridge/stasis_app/two_channel_different_stasis_app" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/rest_api/external_interaction/ami_bridge/stasis_app/two_channel_same_stasis_app" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/rest_api/external_interaction/ami_bridge/stasis_bridge/different_stasis_app" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/rest_api/external_interaction/ami_bridge/stasis_bridge/non_stasis_app" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/rest_api/external_interaction/ami_bridge/stasis_bridge/non_stasis_bridge" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/rest_api/external_interaction/ami_bridge/stasis_bridge/same_stasis_app" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/rest_api/external_interaction/ami_bridge/stasis_bridge/two_channel_different_stasis_app" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/rest_api/external_interaction/ami_bridge/stasis_bridge/two_channel_same_stasis_app" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/rest_api/external_interaction/ami_redirect/stasis_app" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/rest_api/external_interaction/ami_redirect/stasis_bridge" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/rest_api/external_interaction/ami_redirect/stasis_bridge_direct_originate" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/rest_api/external_interaction/attended_transfer/non_stasis_app_to_stasis_bridge" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/rest_api/external_interaction/attended_transfer/non_stasis_bridge_to_stasis_bridge" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/rest_api/external_interaction/attended_transfer/stasis_bridge_to_non_stasis_app" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/rest_api/external_interaction/attended_transfer/stasis_bridge_to_stasis_app" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/rest_api/external_interaction/attended_transfer/stasis_bridge_to_stasis_bridge/different_stasis_app" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/rest_api/external_interaction/attended_transfer/stasis_bridge_to_stasis_bridge/same_stasis_app" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/rest_api/external_interaction/blind_transfer/stasis_bridge_to_different_stasis_app" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/rest_api/external_interaction/blind_transfer/stasis_bridge_to_non_stasis_app" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/rest_api/external_interaction/blind_transfer/stasis_bridge_to_same_stasis_app" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/rest_api/external_interaction/bridge_app/stasis_bridge" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/rest_api/external_interaction/bridge_app/x_option/stasis_bridge" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/rest_api/mailbox/baseline" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/rest_api/message/endpoint/recv" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/rest_api/message/endpoint/send" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/rest_api/message/technology/recv" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/rest_api/message/technology/send" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/rest_api/recording/duration" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/rest_api/recording/file_conflicts" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/rest_api/recording/format_unavailable" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/rest_api/recording/nominal" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/rest_api/recording/stored/copy/nominal" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/rest_api/recording/stored/copy/off-nominal" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/rest_api/recording/stored/file" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/rest_api/request-bodies" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/sorcery/memory_cache_expire" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/sorcery/memory_cache_expire_object" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/sorcery/memory_cache_populate" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/sorcery/memory_cache_stale" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/sorcery/memory_cache_stale_object" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/udptl" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+    <testcase name="tests/udptl_v6" result="SKIPPED" time="0.00">
+      <skipped>Failed dependency</skipped>
+    </testcase>
+  </testsuite>
+</testsuites>
