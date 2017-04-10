@@ -1,0 +1,8 @@
+version: "2"
+services:
+  oneview-app:
+    build: .
+    image: node-app:latest
+    command: node index.js 
+    ports:
+     - "4000:4000"
