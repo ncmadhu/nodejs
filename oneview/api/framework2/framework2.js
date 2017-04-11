@@ -8,7 +8,8 @@ var moduleName = 'framework2'
 var express = require('express')
 var router = express.Router()
 var config = require('config')
-var logger = require('../log').logger
+var logger = require('../common/log').logger
+var sshConn = require('../common/sshConnector')
 var fse =  require('fs-extra')
 var path = require('path')
 var xml2js = require('xml2js')
@@ -217,6 +218,12 @@ router.get('/test', function (req, res) {
 //Response for report request
 router.get('/reports', function (req, res) {
     reportParser(req, res)
+})
+
+//Response for test execute 
+router.get('/execute', function (req, res) {
+    var result = sshConn.executeCommand('pybot ./robot/demo.robot', '10.0.0.3', 'madhu', 'calsoftlabs')
+    res.send("Command executed, result: " +  result)
 })
 
 module.exports = router

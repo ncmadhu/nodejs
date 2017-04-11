@@ -6,7 +6,7 @@ Author: Madhu Chakravarthy
 
 var express = require('express')
 var config = require('config')
-var logger = require('./api/log').logger
+var logger = require('./api/common/log').logger
 
 var app = express()
 const port = config.get('server.port')
