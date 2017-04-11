@@ -6,6 +6,7 @@ Author: Madhu Chakravarthy
 
 var moduleName = 'framework2'
 var express = require('express')
+var bodyParser = require('body-parser')
 var router = express.Router()
 var config = require('config')
 var logger = require('../common/log').logger
@@ -14,6 +15,13 @@ var fse =  require('fs-extra')
 var path = require('path')
 var xml2js = require('xml2js')
 var jsonfile = require('jsonfile')
+
+
+// create application/json parser
+var jsonParser = bodyParser.json()
+
+// create application/x-www-form-urlencoded parser
+var urlencodedParser = bodyParser.urlencoded({ extended: false })
 
 //Initialize xmlparser with attributes
 
@@ -221,10 +229,25 @@ router.get('/reports', function (req, res) {
 })
 
 //Response for test execute 
-router.get('/execute', function (req, res) {
-    var result = sshConn.executeCommand('pybot ./robot/demo.robot', '10.0.0.3', 'madhu', 'calsoftlabs')
-    res.send("Command executed, result: " +  result)
+router.post('/test/execute', jsonParser, function (req, res) {
+
+    var filePath = path.join(process.cwd(), 'config', req.body.host + ".json")
+    jsonfile.readFile(filePath, function(err, obj) {
+         logger.debug("command " + req.body.command)
+         var result = sshConn.executeCommand(req.body.command, obj.host, obj.username, obj.password)
+         res.send("Command executed on " + obj.host)
+    })
+
 })
 
+
+//Response for add executor 
+router.post('/add/executor', jsonParser, function (req, res) {
+
+    var filePath = path.join(process.cwd(), 'config', req.body.host + ".json") 
+    writeToJsonFile(filePath.toLowerCase(), req.body)
+    res.send("Added test executor " + req.body.host +" for " + moduleName)
+
+})
 module.exports = router
 module.exports.moduleName = moduleName
