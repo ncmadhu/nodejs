@@ -26,7 +26,8 @@ var sendMessage = function(exchange, routingKey, message) {
     amqp.connect(url, function(err, conn) {
         conn.createChannel(function(err, ch) {
             ch.assertExchange(exchange, 'direct', {durable: false})
-            ch.publish(exchange, routingKey, new Buffer(message), {deliveryMode: 2})
+            ch.publish(exchange, routingKey, new Buffer(message),
+                      {deliveryMode: 2})
             logger.debug("Sent Message " + message)
         })
         setTimeout(function() { conn.close() }, 500)
