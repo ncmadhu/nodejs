@@ -17,5 +17,17 @@
     "framework2": {
         "module": "framework2",
         "reports": "framework2"
+    },
+    "mongodb": {
+        "host": "localhost",
+        "port": 27017
+    },
+    "rabbitmq": {
+        "host": "localhost",
+        "port": 5672,
+        "username": "oneview",
+        "password": "oneview",
+        "sendqueue": "task",
+        "receivequeue": "status"
     }
 }
